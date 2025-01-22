@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'QuincyCF';
+  src: url('../../fonts/Fontspring-DEMO-quincycf-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-item {
+  color: #192252;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Satoshi Variable";
+}
+.contact-btn {
+  background: linear-gradient(to right, #2e90b0, #5bb5d2);
+  color: white;
+  padding: 10px 36px;
+  border-radius: 14px;
+}
+.contact-nav-item {
+  color: #2e90b0;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Satoshi Variable";
+}
+.header-title {
+  font-family: 'QuincyCF', sans-serif;
+  color: #192252;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 77px;
+}
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 33px; 
+    line-height: 40px;
+  }
+}
+.download-btn {
+  background-color: #1D1E25;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 25px;
+
+}
+
+.nav-item:hover {
+  color: #2E90B0; 
+  cursor: pointer; 
+  text-decoration: underline;
+}
+
+.footer-list-item:hover {
+  color: #192252; 
+  text-decoration: underline; 
+  cursor: pointer;
+}
