@@ -6,7 +6,7 @@ import MobileApp from "../../assets/MobileApp.png";
 const DownloadSection = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="container w-[80%] mx-5  bg-gradient-to-r from-[#2E90B0] to-[#5BB5D2] rounded-lg ">
+      <div className=" w-[100%] mx-5  bg-gradient-to-r from-[#2E90B0] to-[#5BB5D2] rounded-lg ">
         <div className="flex flex-col-reverse md:flex-row items-center">
           {/* Left Column */}
           <div className="flex-1 text-white space-y-4 mb-6 md:mb-0 px-10">

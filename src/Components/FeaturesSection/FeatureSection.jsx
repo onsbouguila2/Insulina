@@ -27,7 +27,7 @@ const FeatureSection = () => {
   ];
 
   return (
-    <div className="container mx-auto px-10 py-12 text-center bg-[#F6F7FA]">
+    <div className="px-10 py-12 text-center bg-[#F6F7FA]">
       {/* Section Title */}
       <p className="text-lg font-semibold card-subtitle">
         Fonctionnalités

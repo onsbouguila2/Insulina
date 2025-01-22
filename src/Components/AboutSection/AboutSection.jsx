@@ -3,7 +3,7 @@ import DownloadBtns from "../DownloadBtns/DownloadBtns";
 import aboutImg from "../../assets/aboutImg.png";
 const AboutSection = () => {
   return (
-    <div className="container mx-auto px-5">
+    <div className=" px-5">
       <div className="section py-10 max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
