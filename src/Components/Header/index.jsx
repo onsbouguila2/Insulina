@@ -10,7 +10,7 @@ import redEllipse from "../../assets/red-ellipse.png";
 
 const Header = () => {
   return (
-    <div className="bg-[#F6F7FA] container px-8 mx-auto relative">
+    <div className="bg-[#F6F7FA]  px-8  relative">
       <Navbar />
       <div className="text-center pt-20">
         <h1 className="header-title">Gérez votre diabète :</h1>

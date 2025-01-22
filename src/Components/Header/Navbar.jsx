@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) {
-        setIsOpen(false); // Fermer le menu si la largeur dépasse 768px
+        setIsOpen(false); 
       }
     };
 
@@ -66,8 +66,8 @@ const Navbar = () => {
       )}
 
       {/* Bouton centré en bas */}
-      <div className="relative border-t border-gray-300 mt-2">
-        <button className="absolute left-1/2 transform -translate-x-1/2 top-[-30px] bg-white rounded-full border px-10 py-2 group hover:bg-[#2E90B0] transition pb-3">
+      <div className="relative border-t border-gray-300 mt-2 ">
+      <button className="absolute hidden sm:block left-1/2 transform -translate-x-1/2 top-[-30px] bg-white rounded-full border px-10 py-2 group hover:bg-[#2E90B0] transition pb-3">
           <img
             src={insulina}
             alt="Insulina"
